@@ -10,9 +10,7 @@ function PageHeader(props) {
             {/* Card.Header to display the header, styled as an h5 element */}
             <Card.Header as="h5">{header}</Card.Header>
             <Card.Body>
-                {/* Card.Title to display the main title of the page */}
                 <Card.Title>{title}</Card.Title>
-                {/* Card.Text to display the descriptive text or subtitle */}
                 <Card.Text>{text}</Card.Text>
             </Card.Body>
         </Card>

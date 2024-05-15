@@ -18,7 +18,6 @@ function App() {
       <BrowserRouter>
         {/* NavigationBar component to display the navigation menu */}
         <NavigationBar />
-        {/* Routes component defines the routes and their corresponding components */}
         <Routes>
           {/* Route for the home page */}
           <Route index element={<Home />} />

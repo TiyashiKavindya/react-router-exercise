@@ -11,7 +11,6 @@ function Card(props) {
             {/* Card.Header to display the title, styled as an h5 element */}
             <BootstrapCard.Header as="h5">{title}</BootstrapCard.Header>
             <BootstrapCard.Body>
-                {/* Card.Text to display the main text content of the card */}
                 <BootstrapCard.Text>{text}</BootstrapCard.Text>
                 {/* Render the action element if provided */}
                 {action}

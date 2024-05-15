@@ -23,9 +23,7 @@ function Blogs() {
                 {data.map(item => (
                     // Each Accordion.Item is assigned a unique key and eventKey based on the item id
                     <Accordion.Item key={item.id} eventKey={item.id}>
-                        {/* Accordion.Header to display the header text for each accordion item */}
                         <Accordion.Header>{item.header}</Accordion.Header>
-                        {/* Accordion.Body to display the content of each accordion item, including a custom Card component */}
                         <Accordion.Body>
                             <Card title={item.title} text={item.content} />
                         </Accordion.Body>
